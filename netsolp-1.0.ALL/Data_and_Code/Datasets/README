@@ -1,0 +1,18 @@
+This folder contains the datasets with the partitions used in the paper.
+
+Camsol:
+FASTA file of sequences
+CSV file of mutation dataset
+
+NESG:
+Price dataset used in two ways
+NESG_testset - used as independent test set for solubility
+price_NESG - fasta file of sequences
+price_NESG_wl_th025_amT - csv file containing the partitions
+Data taken from: https://loschmidt.chemi.muni.cz/soluprot/?page=download
+
+PSI Biology:
+class - txt file containing the class label
+pET_full_without_his_tag - fasta file of sequences
+psi_biology_nesg_partitioning_wl_th025_amT - csv file containing the partitions
+Data taken from: https://github.com/Gardner-BinfLab/SoDoPE_paper_2020/tree/master/datasets_used

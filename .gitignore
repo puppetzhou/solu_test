@@ -1,0 +1,20 @@
+.DS_Store
+._*
+**/._*
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local archives and large benchmark/intermediate data.
+/Pro4S.zip
+/netsolp-1.0.ALL.tar.gz
+/407/
+/408recollection/
+
+# Large model weights exceed GitHub's normal 100 MB file limit.
+/Pro4S/checkpoints/*.ckpt
+/netsolp-1.0.ALL/models/*.onnx
+
+# Local runtime outputs.
+*.log
