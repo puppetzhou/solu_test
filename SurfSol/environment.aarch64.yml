@@ -1,0 +1,22 @@
+name: SurfSol_aarch64
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - tqdm
+  - scikit-learn
+  - pip:
+      - fair-esm==2.0.0
+      - e3nn==0.6.0
+      - mdtraj==1.11.1.post1
+      - plyfile==1.1.3
+      - torch-geometric==2.7.0
+      # On this DGX Spark/aarch64 host the working CUDA build is installed as:
+      # torch==2.11.0+cu130. If recreating from scratch, install the NVIDIA
+      # aarch64 PyTorch wheel matching the host CUDA stack before running.
+      - torch==2.11.0
